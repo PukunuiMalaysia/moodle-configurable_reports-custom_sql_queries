@@ -1,3 +1,4 @@
+-- Purpose: Summarize storage by file type with percentage share and total row.
 WITH FileStorage AS (
  SELECT
  CASE

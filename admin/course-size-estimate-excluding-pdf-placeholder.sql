@@ -1,3 +1,4 @@
+-- Purpose: Estimate course storage size with placeholder PDF-exclusion condition note.
 SELECT
  c.fullname AS Course_Name,
  c.shortname AS Short_Name,

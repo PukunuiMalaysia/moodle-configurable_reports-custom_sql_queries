@@ -1,3 +1,4 @@
+-- Purpose: Sum H5P attempt duration minutes by user, course, and activity.
 SELECT 
  u.id AS userid,
  u.firstname,

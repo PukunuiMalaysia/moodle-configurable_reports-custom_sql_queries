@@ -1,3 +1,4 @@
+-- Purpose: Find quizzes without slots and provide quick links for review/removal.
 SELECT
  CONCAT('<a target="_new" href="%%WWWROOT%%/mod/quiz/view.php?id=', cm.id, '">', q.name, '</a>') AS Quiz,
  CONCAT('<a target="_new" href="%%WWWROOT%%/course/view.php?id=', c.id, '">', c.fullname, '</a>') AS Course,

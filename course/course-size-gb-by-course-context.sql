@@ -1,3 +1,4 @@
+-- Purpose: Estimate per-course storage size (GB) from course-context files.
 SELECT 
  CONCAT('<a href="%%WWWROOT%%/course/view.php?id=', c.id, '">', c.fullname, '</a>') AS course_name,
  ROUND(SUM(f.filesize) / (1024 * 1024 * 1024), 2) AS course_size_gb

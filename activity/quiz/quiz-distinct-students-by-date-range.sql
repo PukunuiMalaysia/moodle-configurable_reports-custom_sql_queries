@@ -1,3 +1,4 @@
+-- Purpose: Count distinct students attempting quizzes within a date range.
 /*
  Purpose:
    Count distinct students who took a quiz attempt within a chosen date/time window.

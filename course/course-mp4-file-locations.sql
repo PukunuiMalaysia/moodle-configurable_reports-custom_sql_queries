@@ -1,3 +1,4 @@
+-- Purpose: List MP4 files for a target course and linked activity/course locations.
 SELECT
  f.filename,
  ROUND(f.filesize / 1024 / 1024, 2) AS filesize_mb,

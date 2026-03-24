@@ -1,3 +1,4 @@
+-- Purpose: Resolve a course module ID to its course and module/resource type.
 /*
  Purpose:
    Lookup a specific course module ID and return its course + module/resource type.

@@ -1,3 +1,4 @@
+-- Purpose: List course role assignments with user last access per course.
 SELECT 
  u.firstname AS "First Name",
  u.lastname AS "Last Name",

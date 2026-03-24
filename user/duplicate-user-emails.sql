@@ -1,3 +1,4 @@
+-- Purpose: Detect duplicate user email addresses.
 select id, auth, username, email
 from prefix_user where email in (
 select email

@@ -1,3 +1,4 @@
+-- Purpose: Compare per-user course grade percentage vs completion percentage by category.
 /*
  Purpose:
    Compare per-user course grade (%) vs activity completion (%) by course/category.

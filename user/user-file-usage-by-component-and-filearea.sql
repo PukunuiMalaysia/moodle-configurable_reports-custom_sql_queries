@@ -1,3 +1,4 @@
+-- Purpose: Break down user-context file usage by component and filearea.
 SELECT
  u.username,
  u.firstname,

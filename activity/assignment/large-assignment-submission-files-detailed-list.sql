@@ -1,3 +1,4 @@
+-- Purpose: List large assignment submission files with student/course/assignment context.
 SELECT
  a.name AS 'Assignment Name',
  c.fullname AS 'Course Name',

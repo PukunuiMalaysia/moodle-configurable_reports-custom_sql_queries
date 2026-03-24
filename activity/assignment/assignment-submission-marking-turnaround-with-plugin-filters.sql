@@ -1,3 +1,4 @@
+-- Purpose: Report assignment submission-to-marking turnaround with Configurable Reports filters.
 /*
  Configurable Reports plugin filters required for this SQL:
 

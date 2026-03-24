@@ -1,3 +1,4 @@
+-- Purpose: Summarize storage usage by course content, user private files, backups, and recycle bin.
 SELECT
  'Course Content' AS Type,
  c.fullname AS Name,

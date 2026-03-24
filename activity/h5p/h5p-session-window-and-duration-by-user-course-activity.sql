@@ -1,3 +1,4 @@
+-- Purpose: Show H5P session start/end window and total duration by user/course/activity.
 SELECT 
  c.fullname AS course_name,
  CONCAT(u.firstname, ' ', u.lastname) AS full_name,

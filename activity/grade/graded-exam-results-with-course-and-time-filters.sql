@@ -1,3 +1,4 @@
+-- Purpose: Report graded exam results with course and time-window filters.
 /*
  Purpose:
    Report graded exam results with course filter and time-window filters.

@@ -1,3 +1,4 @@
+-- Purpose: Identify assignments with PDF conversion files but no submission files.
 WITH conv AS (
  SELECT
  a.id AS assignmentid,

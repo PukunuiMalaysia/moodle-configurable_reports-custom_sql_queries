@@ -1,3 +1,4 @@
+-- Purpose: List users with profile info, suspension status, and cohort memberships.
 -- This query retrieves user information along with related cohort information from a database
 SELECT 
  u.firstname, -- user's first name

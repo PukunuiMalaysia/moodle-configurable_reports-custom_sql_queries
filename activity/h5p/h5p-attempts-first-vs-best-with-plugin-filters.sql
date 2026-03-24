@@ -1,3 +1,4 @@
+-- Purpose: Compare first attempt vs highest-score attempt for H5P with plugin filters.
 /*
  Configurable Reports plugin filters required for this SQL:
 

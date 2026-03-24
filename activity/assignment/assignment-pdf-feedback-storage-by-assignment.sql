@@ -1,3 +1,4 @@
+-- Purpose: Summarize assignment PDF feedback conversion storage by assignment.
 SELECT 
  c.fullname AS course_name,
  a.id AS assignment_id,

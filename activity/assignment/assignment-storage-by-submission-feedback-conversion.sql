@@ -1,3 +1,4 @@
+-- Purpose: Compare assignment storage across submission, feedback, and conversion files.
 SELECT
  a.id AS assignment_id,
  CONCAT('<a href="%%WWWROOT%%/mod/assign/view.php?id=', cm.id, '">', a.name, '</a>') AS assignment_name_link,

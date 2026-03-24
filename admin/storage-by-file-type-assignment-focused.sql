@@ -1,3 +1,4 @@
+-- Purpose: Summarize storage by assignment-related file types and fallback component:filearea.
 SELECT
  CASE
  WHEN f.component = 'assignsubmission_file' AND f.filearea = 'submission_files' THEN 'Assignment Submissions'

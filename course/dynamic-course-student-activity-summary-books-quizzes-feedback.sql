@@ -1,3 +1,4 @@
+-- Purpose: Dynamic course-page summary of student book views, quiz attempts, and feedback responses.
 /*
  Dynamic report note:
  - This SQL is dynamic and intended to run ONLY on course pages.

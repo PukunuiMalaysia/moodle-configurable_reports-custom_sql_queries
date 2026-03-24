@@ -1,3 +1,4 @@
+-- Purpose: Count yesterday notifications by component and event type.
 SELECT
  component AS 'Component',
  eventtype AS 'Event Type',

@@ -1,3 +1,4 @@
+-- Purpose: Compare quiz submissions vs enrolled participants for quizzes opened in a date window.
 /*
  Purpose:
    Compare quiz submissions vs enrolled participants for quizzes opened in a selected date window.

@@ -1,3 +1,4 @@
+-- Purpose: List backup files with context details and course backup manage link when applicable.
 SELECT
  f.id AS 'File ID',
  f.filename AS 'File Name',

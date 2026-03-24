@@ -1,3 +1,4 @@
+-- Purpose: Show H5P user profile/session duration with course and activity links.
 SELECT 
  CONCAT('<a href="%%WWWROOT%%/course/view.php?id=', c.id, '">', c.fullname, '</a>') AS course_name,
  CONCAT(u.firstname, ' ', u.lastname) AS full_name,

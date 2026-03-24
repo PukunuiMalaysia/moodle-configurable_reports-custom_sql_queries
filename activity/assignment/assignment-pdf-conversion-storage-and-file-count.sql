@@ -1,3 +1,4 @@
+-- Purpose: Show assignment PDF conversion storage with file counts.
 SELECT 
  c.fullname AS course_name,
  a.id AS assignment_id,

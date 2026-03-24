@@ -1,3 +1,4 @@
+-- Purpose: List H5P attempts with per-attempt duration and timestamp.
 SELECT 
  u.id AS userid,
  u.firstname,

@@ -1,3 +1,4 @@
+-- Purpose: Identify large physical files by contenthash and show representative usage/location.
 /*
  Purpose:
    Detect large physical files (grouped by contenthash) and show how widely each file is reused.

@@ -1,3 +1,4 @@
+-- Purpose: Inventory files with context links, size, and uploader details.
 SELECT
  CASE
  WHEN ctx.contextlevel = 70 THEN CONCAT('<a target="_new" href="%%WWWROOT%%/mod/', m.name, '/view.php?id=', cm.id, '">', m.name, ' module</a>')

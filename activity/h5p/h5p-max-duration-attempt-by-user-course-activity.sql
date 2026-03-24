@@ -1,3 +1,4 @@
+-- Purpose: Report H5P metrics from max-duration attempt by user/course/activity.
 SELECT 
  CONCAT('<a href="%%WWWROOT%%/course/view.php?id=', c.id, '">', c.fullname, '</a>') AS course_name,
  CONCAT(u.firstname, ' ', u.lastname) AS full_name,

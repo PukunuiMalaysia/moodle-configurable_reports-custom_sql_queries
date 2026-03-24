@@ -1,3 +1,4 @@
+-- Purpose: List visible courses with category and formatted start date.
 SELECT 
  c.id AS 'Course ID',
  c.fullname AS 'Course Name',

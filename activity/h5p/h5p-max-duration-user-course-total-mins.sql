@@ -1,3 +1,4 @@
+-- Purpose: Show user-course H5P total minutes using max-duration attempts.
 SELECT 
  CONCAT('<a href="%%WWWROOT%%/course/view.php?id=', c.id, '">', c.fullname, '</a>') AS course_name,
  CONCAT(u.firstname, ' ', u.lastname) AS full_name,
