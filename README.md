@@ -9,7 +9,8 @@ This repository stores reusable SQL reports used for Moodle data analysis, stora
 ## Folder structure
 
 - `course/` → course-level reports (course content, course file size summaries, per-course breakdowns)
-- `activity/` → activity/module-specific reports (H5P, Quiz, Assignment, etc.)
+- `activity/assignment/` → assignment-specific reports (submission, feedback, conversion, grading/turnaround)
+- `activity/h5p/` → H5P-specific reports (attempts, duration, first-vs-best, user session views)
 - `user/` → user-centric reports (private files, per-user usage)
 - `dedup/` → physical file deduplication/reuse analysis (contenthash-based)
 - `admin/` → sitewide operational/admin reports (backups, recycle bin, cleanup-focused views)
@@ -18,11 +19,6 @@ This repository stores reusable SQL reports used for Moodle data analysis, stora
 ## Naming convention
 
 Use clear, descriptive, kebab-case filenames ending in `.sql`.
-
-Examples:
-- `course-mp4-file-locations.sql`
-- `course-storage-breakdown-by-area.sql`
-- `h5p-attempts-first-vs-best-with-plugin-filters.sql`
 
 ## Usage notes
 
