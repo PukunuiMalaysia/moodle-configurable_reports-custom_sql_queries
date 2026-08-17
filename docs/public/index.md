@@ -1,5 +1,7 @@
 ---
 title: Configurable Reports SQL query library
+category: Related tools
+nav_order: 10
 ---
 
 # Configurable Reports SQL query library
